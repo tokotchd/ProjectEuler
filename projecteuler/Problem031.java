@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Problem031 {
 	public static void main(String[] args) {
-		final int numberToSumTo = 500;
+		final int numberToSumTo = 200;
 		final List<Integer> valuesToUse = Arrays.asList(200, 100, 50, 20, 10, 5, 2, 1);
 		System.out.println(numberOfWaysToSum(numberToSumTo,valuesToUse));
 	}

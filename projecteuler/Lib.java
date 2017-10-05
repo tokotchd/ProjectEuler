@@ -23,8 +23,11 @@ public class Lib
 			return fn/(fk*fnk);
 		}
 	}
+	
 	public static double factorial(int f)
 	{
+		if(f == 0)
+			return 1;
 		double product = f;
 		for(int counter = f - 1; counter > 0; counter--)
 		{
