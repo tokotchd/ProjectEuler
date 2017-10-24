@@ -1,7 +1,5 @@
 package projecteuler;
 
-import java.math.BigInteger;
-import java.util.ArrayList;
 
 public class Lib 
 {
