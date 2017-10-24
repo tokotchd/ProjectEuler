@@ -33,4 +33,19 @@ public class Lib
 		}
 		return product;
 	}
+	
+	public static boolean isPrime(int n){
+		if(n <= 1)
+			return false;
+		if(n == 2)
+			return true;
+		boolean isPrime = true;
+		for(int c = 2; c <= Math.sqrt(n); c++){
+			if(n % c == 0){
+				isPrime = false;
+				break;
+			}
+		}
+		return isPrime;
+	}
 }
